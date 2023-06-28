@@ -12,7 +12,7 @@ function Login() {
           <form className="mt-5">
             <InputGroup labelText="Login" />
             <InputGroup labelText="Senha" type="password" />
-            <Button>Acessar</Button>
+            <Button onClick={() => alert('aqui')}>Acessar</Button>
           </form>
         </div>
       </div>
