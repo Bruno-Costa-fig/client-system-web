@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.root,
+#root,
+#docs-root {
+  --brand-color-blue-100: #2382A0;
+  --brand-color-blue-80: #4F9BB3;
+  --brand-color-blue-60: #7BB4C6;
+  --brand-color-blue-40: #A7CDD9;
+  --brand-color-blue-20: #F0F8F3;
+  --gray-color-100: #333333; 
+  --gray-color-80: #4F4F4F;
+  --gray-color-60: #828282;
+  --gray-color-40: #D9D9D9;
+  --gray-color-20: #EDEDED;
+  --brand-color-green: #00A843;
+  --brand-color-yellow: #F3D11B; 
+  --brand-color-red: #E54B4B;
+}
+
+* {
+  margin: 0;
+  border: 0;
+  padding: 0;
+  color: #333;
+  box-sizing: border-box;
+  font-family: 'Inter', sans-serif;
+}
+
+body {
+  min-height: 100vh;
+  font-family: sans-serif;
+  background-color: var(--white);
+  font-family: 'Inter', sans-serif;
+}
+
+#root {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-weight: var(--font-bold);
+}
+
+h1 {
+  font-size: 64px;
+  font-weight: 700;
+  line-height: 74px;
+}
+
+h2 {
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 58px;
+}
+
+h3 {
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 32px;
+}
+
+.paragraph-lg {
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 26px;
+}
+
+.paragraph-md {
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 22px;
+}
+
+.paragraph {
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 18px;
+}
+
+.paragraph-sm {
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 16px;
+}
