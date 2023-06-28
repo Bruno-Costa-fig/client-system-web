@@ -21,6 +21,11 @@ export default {
         ['brand-color-yellow']: "var(--brand-color-yellow)",
         ['brand-color-red']: "var(--brand-color-red)",
       },
+      backgroundImage: {
+        'imagem-fundo-1': "url('/assets/images/imagem-fundo-1.png')",
+        'imagem-fundo-2': "url('/assets/images/imagem-fundo-2.png')",
+        'imagem-fundo-3': "url('/assets/images/imagem-fundo-3.png')",
+      }
     },
   },
   plugins: [],
