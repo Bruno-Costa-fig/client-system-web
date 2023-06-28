@@ -22,10 +22,10 @@ function NavbarDrawer() {
         <div>
           <p className="paragraph-sm uppercase ms-5 mb-5">Principal</p>
           <ul className="">
-            <NavItem text="Página Inicial">
+            <NavItem to="/" text="Página Inicial">
               <HomeIcon />
             </NavItem>
-            <NavItem text="Lojas parceiras">
+            <NavItem to="/mapa-lojas" text="Lojas parceiras">
               <MapIcon />
             </NavItem>
           </ul>

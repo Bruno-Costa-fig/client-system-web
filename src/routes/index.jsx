@@ -7,7 +7,7 @@ import Dashboard from "../Pages/Dashboard/index"
 import MapaLojas from "../Pages/MapaLojas/index"
 
 const PrivateRoute = () => {
-  let auth = false
+  let auth = true
 
   return (
       auth ? <Outlet /> : <Navigate to="/login" />
