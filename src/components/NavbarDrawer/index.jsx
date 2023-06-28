@@ -6,7 +6,7 @@ import MapIcon from "../icons/MapIcon";
 import NavItem from "./NavItem";
 
 function NavbarDrawer() {
-  const [open, setOpen] = useState(true)
+  const [open, setOpen] = useState(false)
 
   const handleDrawer = () => {
     setOpen((state) => !state)
