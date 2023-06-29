@@ -39,7 +39,7 @@ function CardItem({ text, children, percentage, type, value, className }) {
   }
 
   return (
-    <div className={`w-full h-32 px-4 flex items-center justify-between rounded shadow-md ${className}`}>
+    <div className={`w-full h-36 px-4 flex items-center justify-between rounded shadow-md ${className}`}>
       <div className='flex flex-col'>
         {children}
         <p className="font-bold text-xl mt-2">{text}</p>

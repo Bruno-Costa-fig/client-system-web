@@ -1,6 +1,11 @@
+import ContainerWrapper from "../../components/ContainerWrapper"
+import Maps from "../../components/Maps";
+
 function MapaLojas() {
   return ( 
-    <h1>MapaLojas</h1>
+    <ContainerWrapper>
+      <Maps />
+    </ContainerWrapper>
   );
 }
 
