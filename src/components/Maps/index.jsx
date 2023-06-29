@@ -11,8 +11,9 @@ function Maps() {
           <span className='paragraph'>Cadastrar loja</span>
         </button>
       </div>
-      <MapContainer center={[-6.401087758398589, -38.85733606981505]} zoom={13} scrollWheelZoom={false} style={{ height: '500px', width: '100%' }}>
+      <MapContainer center={[-6.401087758398589, -38.85733606981505]} zoom={13} scrollWheelZoom={false} style={{ height: '500px', width: '100%', zIndex: 10 }}>
         <TileLayer
+          style={{zIndex: 10}}
           attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
           url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
         />
