@@ -5,6 +5,7 @@ import MapsIcon from "../../components/icons/MapsIcon"
 import CpuIcon from "../../components/icons/CpuIcon"
 import BuildingIcon from "../../components/icons/BuildingIcon"
 import RankingCidades from "../../components/RankingCidades";
+import LineChart from "../../components/LineChart";
 
 function Dashboard() {
   return ( 
@@ -23,9 +24,9 @@ function Dashboard() {
           <BuildingIcon size={28} />
         </CardItem>
       </div>
-      <div className="w-full mt-5 min-h-full lg:grid lg:gap-3 lg:gap-4 lg:grid-cols-4 place-content-start">
-        <div className="min-h-max col-start-1 col-end-4">
-          <h3>card</h3>
+      <div className="w-full mt-5 min-h-full lg:grid lg:gap-3 lg:gap-4 lg:grid-cols-4 place-items-stretch">
+        <div className="h-full col-start-1 col-end-4">
+          <LineChart />
         </div>
         <div className="min-h-full">
           <RankingCidades />
