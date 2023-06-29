@@ -66,26 +66,44 @@ h3 {
   line-height: 32px;
 }
 
+.heading-1 {
+  font-size: 64px;
+  font-weight: 700;
+  line-height: 64px;
+}
+
+.heading-2 {
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 48px;
+}
+
+.heading-3 {
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 32px;
+}
+
 .paragraph-lg {
-  font-size: 20px;
+  font-size: 24px;
   font-weight: 500;
-  line-height: 26px;
+  line-height: 36px;
 }
 
 .paragraph-md {
-  font-size: 16px;
+  font-size: 18px;
   font-weight: 500;
-  line-height: 22px;
+  line-height: 27px;
 }
 
 .paragraph {
-  font-size: 14px;
+  font-size: 16px;
   font-weight: 500;
-  line-height: 18px;
+  line-height: 24px;
 }
 
 .paragraph-sm {
-  font-size: 12px;
+  font-size: 14px;
   font-weight: 500;
-  line-height: 16px;
+  line-height: 21px;
 }

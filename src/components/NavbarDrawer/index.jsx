@@ -13,7 +13,7 @@ function NavbarDrawer() {
   }
 
   return ( 
-    <header title="Cabeçalho com menu de navegação" className="header-component w-screen h-16 bg-white shadow-lg shadow-gray-100 flex justify-center align-center">
+    <header title="Cabeçalho com menu de navegação" className="fixed header-component w-screen h-16 bg-white shadow-lg shadow-slave-100 flex justify-center align-center">
       {open && <nav className="fixed top-0 left-0 w-64 h-screen bg-white shadow-lg shadow-gray-100">
         <div className="w-full h-16 px-5 mb-5 flex items-center justify-between">
           <img src="/logo.svg" width={180} alt="Logo" />
