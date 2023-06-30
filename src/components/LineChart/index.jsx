@@ -26,7 +26,7 @@ function LineChart({dashboardOverview}) {
 
   return (
     <div className="z-10 p-5 shadow-md rounded">
-      <h4 className="mt-5 ms-10">Entrada de clientes - Junho</h4>
+      <h4 className="mt-5 md:ms-10">Entrada de clientes - Junho</h4>
       <Chart
         style={{ zIndex: 10 }}
         chartType="LineChart"

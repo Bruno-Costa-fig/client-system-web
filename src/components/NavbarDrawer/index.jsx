@@ -4,6 +4,7 @@ import MenuRightIcon from "../icons/MenuRightIcon";
 import HomeIcon from "../icons/HomeIcon";
 import MapIcon from "../icons/MapIcon";
 import NavItem from "./NavItem";
+import MenuProfile from "./MenuProfile";
 
 function NavbarDrawer() {
   const [open, setOpen] = useState(false)
@@ -31,8 +32,9 @@ function NavbarDrawer() {
           </ul>
         </div>
       </nav>}
-      <div aria-label="appbar" className="w-full mx-5 flex">
+      <div aria-label="appbar" className="w-full mx-5 flex justify-between">
         <MenuLeftIcon handleclick={handleDrawer} title="Ícone Menu"/>
+        <MenuProfile />
       </div>
     </header>
   );
