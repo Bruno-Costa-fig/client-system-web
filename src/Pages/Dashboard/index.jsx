@@ -19,10 +19,12 @@ function Dashboard() {
   const [totalPartnerships, setTotalPartnerships] = useState(null)
 
   useEffect(() => {
-    setTotalClients(dashboardOverview.totalClients)
-    setTotalStores(dashboardOverview.totalStores)
-    setTotalSubscriptions(dashboardOverview.totalSubscriptions)
-    setTotalPartnerships(dashboardOverview.totalPartnerships)
+    if(!!dashboardOverview){
+      setTotalClients(dashboardOverview.totalClients)
+      setTotalStores(dashboardOverview.totalStores)
+      setTotalSubscriptions(dashboardOverview.totalSubscriptions)
+      setTotalPartnerships(dashboardOverview.totalPartnerships)
+    }
   }, [dashboardOverview])
 
   return ( 

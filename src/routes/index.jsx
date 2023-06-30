@@ -1,16 +1,17 @@
-import React from 'react'
+import React, { useContext } from 'react'
 import {BrowserRouter, Routes, Route, Outlet, Navigate} from "react-router-dom"
 
 import App from "../App"
 import Login from "../Pages/Login/index"
 import Dashboard from "../Pages/Dashboard/index"
 import MapaLojas from "../Pages/MapaLojas/index"
+import useAuth from '../hooks/useAuth'
 
 const PrivateRoute = () => {
-  let auth = true
+  const user = JSON.parse(localStorage.getItem("user_token")) ?? null
 
   return (
-      auth ? <Outlet /> : <Navigate to="/login" />
+    !!user.token ? <Outlet /> : <Navigate to="/login" />
   )
 }
 

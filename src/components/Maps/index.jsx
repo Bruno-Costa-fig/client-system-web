@@ -1,12 +1,8 @@
 import { MapContainer, TileLayer, Marker, Popup } from 'react-leaflet'
 import PlusIcon from "../icons/PlusIcon"
-import useStoreList from '../../hooks/useStoreList';
 import Pointer from './Pointer';
 
-function Maps({actionCadastrar}) {
-
-  const { stores, error } = useStoreList()
-
+function Maps({stores, actionCadastrar, lat, long}) {
   return (
     <div className='w-full h-full p-5 rounded shadow-md flex flex-col'>
       <div className='py-10 pt-5 flex justify-between items-center'>
@@ -16,13 +12,13 @@ function Maps({actionCadastrar}) {
           <span className='paragraph'>Cadastrar loja</span>
         </button>
       </div>
-      <MapContainer center={[-6.401087758398589, -38.85733606981505]} zoom={13} scrollWheelZoom={true} style={{ height: '500px', width: '100%', zIndex: 10 }}>
+      <MapContainer center={[lat, long]} zoom={13} scrollWheelZoom={true} style={{ height: '500px', width: '100%', zIndex: 10 }}>
         <TileLayer
           style={{zIndex: 10}}
           attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
           url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
         />
-        {error == null && stores.map((store) => (
+        {!!stores && stores.map((store) => (
           <Pointer store={store} key={store.id} />
         ))}
       </MapContainer>

@@ -6,6 +6,8 @@ import React from 'react'
 const InputGroup = forwardRef(({ labelText, helperText, ...props }, ref) => {
   const [showPassword, setShowPassword] = useState(false)
 
+  console.log(helperText)
+
   const handleSetShowPassword = () => {
     setShowPassword((state) => !state)
   }
@@ -24,7 +26,7 @@ const InputGroup = forwardRef(({ labelText, helperText, ...props }, ref) => {
           )}
         </div>
 
-      {!!helperText && <span className="error">{helperText}</span>}
+      {!!helperText && <span className="text-brand-color-red">{helperText}</span>}
     </div>
   )
 })

@@ -30,7 +30,7 @@ Pointer.propTypes = {
       neighborhood: PropTypes.string,
       zipcode: PropTypes.string,
     }),
-    amount: PropTypes.number,
+    amount: PropTypes.string,
     latitude: PropTypes.string,
     longitude: PropTypes.string,
   }).isRequired
