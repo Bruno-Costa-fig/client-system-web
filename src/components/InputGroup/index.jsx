@@ -18,7 +18,7 @@ const InputGroup = forwardRef(({ labelText, helperText, ...props }, ref) => {
         </label>
       )}
         <div className='flex items-center flex-row-reverse'>
-          <input type={showPassword ? 'text' : props.type} ref={ref} className='p-3 my-2 w-full rounded border border-gray-400 border-solid' placeholder={labelText} name={labelText.replace(" ", "-").toLowerCase()} {...props} />
+          <input type={showPassword ? 'text' : props.type} ref={ref} className='p-3 my-2 w-full rounded border border-gray-400 border-solid' placeholder={labelText} {...props} />
           {props.type == "password" && (
             <EyeIcon handleclick={handleSetShowPassword}/>
           )}

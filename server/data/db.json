@@ -1,0 +1,64 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "username": "bruno.costa",
+      "name": "Bruno Costa",
+      "password": 1234
+    }
+  ],
+  "stores": [
+    {
+      "name": "Loja 1",
+      "city": "Iguatu",
+      "zipcode": "63505150",
+      "latitude": "-6.371073",
+      "longitude": "-39.309947",
+      "amount": "120000",
+      "adress": {
+        "zipcode": "63505-150",
+        "street": "Rua Braz Papaleo",
+        "neighborhood": "Esplanada II",
+        "state": "CE",
+        "city": "Iguatu"
+      },
+      "createdAt": "2023-06-29",
+      "id": 2
+    },
+    {
+      "name": "Loja da Maria",
+      "city": "Icó",
+      "zipcode": "63430000",
+      "latitude": "-6.401327583697139",
+      "longitude": "-38.85759301593488",
+      "amount": "120000",
+      "adress": {
+        "zipcode": "63430-000",
+        "street": "Av. Josefa Nogueira Monteiro",
+        "neighborhood": "Centro",
+        "state": "CE",
+        "city": "Icó"
+      },
+      "createdAt": "2023-06-30",
+      "id": 3
+    },
+    {
+      "name": "Loja do João",
+      "city": "Icó",
+      "street": "R. Monsenhor Frota",
+      "zipcode": "63430000",
+      "latitude": "-6.400522780537659",
+      "longitude": "-38.85764043114103",
+      "amount": "96450",
+      "adress": {
+        "zipcode": "63430-000",
+        "street": "R. Monsenhor Frota",
+        "neighborhood": "Centro",
+        "state": "CE",
+        "city": "Icó"
+      },
+      "createdAt": "2023-06-30",
+      "id": 4
+    }
+  ]
+}
