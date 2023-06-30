@@ -10,8 +10,8 @@ function Login() {
           <h3 className="mb-2">Login</h3>
           <p>Informe os dados abaixo para acessar a nossa plataforma.</p>
           <form className="mt-5">
-            <InputGroup labelText="Login" />
-            <InputGroup labelText="Senha" type="password" />
+            <InputGroup labelText="Login" placeholder="Digite aqui" />
+            <InputGroup labelText="Senha" type="password" placeholder="Digite aqui" />
             <Button onClick={() => alert('aqui')}>Acessar</Button>
           </form>
         </div>

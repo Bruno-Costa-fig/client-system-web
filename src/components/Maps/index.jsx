@@ -1,12 +1,12 @@
 import { MapContainer, TileLayer, Marker, Popup } from 'react-leaflet'
 import PlusIcon from "../icons/PlusIcon"
 
-function Maps() {
+function Maps({actionCadastrar}) {
   return (
     <div className='w-full h-full p-5 rounded shadow-md flex flex-col'>
       <div className='py-10 pt-5 flex justify-between items-center'>
         <h4>Mapa de lojas</h4>
-        <button className='flex py-3 hover:border-solid border-b-2 border-brand-color-blue-100'>
+        <button className='flex py-3 hover:border-solid border-b-2 border-brand-color-blue-100' onClick={() => actionCadastrar()}>
           <PlusIcon className='me-3'/>
           <span className='paragraph'>Cadastrar loja</span>
         </button>
