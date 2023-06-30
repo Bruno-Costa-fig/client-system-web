@@ -60,5 +60,64 @@
       "createdAt": "2023-06-30",
       "id": 4
     }
-  ]
+  ],
+  "dashboardOverview": {
+    "totalClients" : {
+      "amount": 12000,
+      "variation": "up",
+      "percentage": 10,
+      "text": "Total de clientes"
+    },
+    "totalStores" : {
+      "amount": 106,
+      "variation": "equal",
+      "percentage": 10,
+      "text": "Total de cidades"
+    },
+    "totalSubscriptions" : {
+      "amount": 13000,
+      "variation": "up",
+      "percentage": 10,
+      "text": "Total de assinaturas"
+    },
+    "totalPartnerships" : {
+      "amount": 134,
+      "variation": "down",
+      "percentage": 10,
+      "text": "Total de lojas parceiras"
+    },
+    "sales": [
+      [0, 22],
+      [1, 25],
+      [2, 35],
+      [3, 72],
+      [4, 86],
+      [5, 90],
+      [6, 76],
+      [7, 82],
+      [8, 84],
+      [9, 92],
+      [10, 94],
+      [11, 98],
+      [12, 102],
+      [13, 103],
+      [14, 96],
+      [15, 110],
+      [16, 115],
+      [17, 119],
+      [18, 125],
+      [19, 132],
+      [20, 136],
+      [21, 140],
+      [22, 142],
+      [23, 135],
+      [24, 138],
+      [25, 144],
+      [26, 148],
+      [27, 152],
+      [28, 158],
+      [29, 162],
+      [30, 168]
+    ]
+  }
 }

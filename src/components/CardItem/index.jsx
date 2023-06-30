@@ -38,6 +38,14 @@ function CardItem({ text, children, percentage, type, value, className }) {
     }
   }
 
+  const formatValue = (value) => {
+    if(Number(value) > 1000){
+      return `+${Number(value) / 1000}mil`
+    }
+
+    return value
+  }
+
   return (
     <div className={`w-full h-36 px-4 flex items-center justify-between rounded shadow-md ${className}`}>
       <div className='flex flex-col'>
@@ -50,7 +58,7 @@ function CardItem({ text, children, percentage, type, value, className }) {
         </div>
       </div>
       <div>
-        <span className='font-bold heading-3'>{value}</span>
+        <span className='font-bold heading-3'>{formatValue(value)}</span>
       </div>
     </div>
   );

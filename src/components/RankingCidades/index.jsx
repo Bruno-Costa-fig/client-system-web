@@ -40,8 +40,8 @@ function RankingCidades() {
           <span className="font-bold">Montante</span>
         </div>
         <ul>
-          {cidadesList.map((item) => (
-            <div className="w-full flex justify-between py-5 border-t-2 border-solid border-slate-100">
+          {cidadesList.map((item, index) => (
+            <div key={index} className="w-full flex justify-between py-5 border-t-2 border-solid border-slate-100">
               <li>{item.name}</li>
               <li className="whitespace-nowrap">{item.amount.toLocaleString('pt-br',{style: 'currency', currency: 'BRL'})}</li>
             </div>
