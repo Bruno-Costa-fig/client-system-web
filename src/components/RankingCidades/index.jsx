@@ -1,35 +1,33 @@
+import useStoreList from "../../hooks/useStoreList"
+import { groupBy } from "../../services/utils"
+
 function RankingCidades() {
 
-  const cidadesList = [
-    {
-      name: "Pereiro",
-      amount: 120334
-    },
-    {
-      name: "São Miguel",
-      amount: 114423
-    },
-    {
-      name: "Jaguaribe",
-      amount: 112781
-    },
-    {
-      name: "Icó",
-      amount: 109988
-    },
-    {
-      name: "Iguatu",
-      amount: 107326
-    },
-    {
-      name: "Cedro",
-      amount: 102454
-    },
-    {
-      name: "Lavras da Mangabeira",
-      amount: 90760
-    },
-  ]
+  const {stores, error} = useStoreList()
+
+  const cidadesList = () => {
+    if(!!stores && stores.length > 0){
+      const cities = groupBy(stores, "city")
+      
+      const list = []
+      
+      for(let ct in cities){
+        let city = cities[ct]
+        
+        let c = {name: ct, amount: 0}
+
+        city.forEach(item => {
+          c.amount += Number(item.amount)
+        });
+
+        list.push(c)
+      }
+
+      return list
+    }
+
+    return []
+  } 
 
   return (
     <div className="rounded bg-white shadow-md p-10">
@@ -40,7 +38,7 @@ function RankingCidades() {
           <span className="font-bold">Montante</span>
         </div>
         <ul>
-          {cidadesList.map((item, index) => (
+          {cidadesList().length > 0 && cidadesList().map((item, index) => (
             <div key={index} className="w-full flex justify-between py-5 border-t-2 border-solid border-slate-100">
               <li>{item.name}</li>
               <li className="whitespace-nowrap">{item.amount.toLocaleString('pt-br',{style: 'currency', currency: 'BRL'})}</li>

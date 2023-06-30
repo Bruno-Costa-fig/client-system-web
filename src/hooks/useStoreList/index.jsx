@@ -16,7 +16,6 @@ function useStoreList () {
   }
 
   const fetchData = async () => {
-    debugger
     const response = await apiService.get('/stores')
 
     setError(response.error)
