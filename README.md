@@ -28,7 +28,7 @@ Para rodar o projeto localmente será necessário clonar o projeto. Use o link [
 - `Página de Login`: Para fazer login na aplicação você pode utilizar como usuário (campo login) **bruno@email.com** e como senha **1234**. Consulte os usuários disponíveis [clicando neste link](https://github.com/Bruno-Costa-fig/Agility-client-system/blob/develop/server/data/db.json).
 
 **Página de login**
-<img src="/docs/images/pagina-login.png" width="200" />
+<img src="/docs/images/pagina-login.png" width="800" />
 
 - `Menu de navegação`: No campo superior esquerdo (conforme imagem 1) temos o botão para exibir o menu de navegação(imagem 2). Através dele podemos
 navegar entre as páginas disponíveis que são:
@@ -36,13 +36,13 @@ navegar entre as páginas disponíveis que são:
   - `Mapa de lojas`: Página com o mapa das lojas (imagem 4)
 
 **Imagem 1 - Botão para exibir menu**
-<img src="/docs/images/botao-menu.png" width="200" />
+<img src="/docs/images/botao-menu.png" width="800" />
 
 **Imagem 2 - Menu de navegação**
-<img src="/docs/images/menu-navegacao.png" width="200" />
+<img src="/docs/images/menu-navegacao.png" width="800" />
 
 **Imagem 3 - Página inicial**
-<img src="/docs/images/dashboard.png" width="200" />
+<img src="/docs/images/dashboard.png" width="800" />
 
 **Imagem 4 - Página mapa lojas**
-<img src="/docs/images/mapa-lojas.png" width="200" />
+<img src="/docs/images/mapa-lojas.png" width="800" />
