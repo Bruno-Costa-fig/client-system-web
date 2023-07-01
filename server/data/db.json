@@ -15,7 +15,7 @@
   ],
   "stores": [
     {
-      "name": "Loja 1",
+      "name": "Loja do Carlos",
       "city": "Iguatu",
       "zipcode": "63505150",
       "latitude": "-6.371073",
@@ -67,7 +67,7 @@
       "id": 4
     },
     {
-      "name": "Loja 3",
+      "name": "Loja Iguatemi",
       "city": "Iguatu",
       "street": "R. Raul Barbosa",
       "zipcode": "63504310",
@@ -85,7 +85,7 @@
       "id": 5
     },
     {
-      "name": "Loja da antonia",
+      "name": "Loja da Antonia",
       "city": "Iguatu",
       "street": "Rua 15 de Novembro",
       "zipcode": "63500098",
@@ -103,7 +103,7 @@
       "id": 6
     },
     {
-      "name": "Loja 35",
+      "name": "Loja do Raimundo",
       "city": "Iguatu",
       "street": "Rua Luiza Moreira",
       "zipcode": "63504375",
@@ -121,7 +121,7 @@
       "id": 7
     },
     {
-      "name": "Loja 56",
+      "name": "Loja do Benjamim",
       "city": "Iguatu",
       "street": "Rua. Profa Santinha",
       "zipcode": "63505115",

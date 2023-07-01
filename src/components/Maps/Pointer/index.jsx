@@ -1,9 +1,25 @@
 import PropTypes from 'prop-types'
 import { Marker, Popup } from "react-leaflet";
+import L from "leaflet";
 
-function Pointer({ store }) {
+function Pointer({ store, useRedPointer = false }) {
+
+  const redPointerIcon = L.icon({
+    iconUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d1/Google_Maps_pin.svg/640px-Google_Maps_pin.svg.png",
+    iconSize: [25, 40],
+    iconAnchor: [12, 12],
+    popupAnchor: [0, 0],
+  });
+ 
+  const blueIcon = L.icon({
+    iconUrl: "https://unpkg.com/leaflet@1.9.4/dist/images/marker-icon.png",
+    iconSize: [25, 40],
+    iconAnchor: [12, 12],
+    popupAnchor: [0, 0],
+  });
+
   return ( 
-    <Marker position={[store.latitude, store.longitude]}>
+    <Marker icon={useRedPointer ? redPointerIcon : blueIcon} position={[store.latitude, store.longitude]}>
       <Popup>
         <div>
           <p className='font-bold text-lg flex flex-col'>

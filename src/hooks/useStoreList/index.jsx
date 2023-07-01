@@ -6,9 +6,9 @@ function useStoreList () {
   const [error, setError] = useState(null)
 
   const campareStore = (a, b) => {
-    if(a.amount > b.amount){
+    if(Number(a.amount) > Number(b.amount)){
       return -1
-    } else if (a.amount < b.amount){
+    } else if (Number(a.amount) < Number(b.amount)){
       return 1
     }
 

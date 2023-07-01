@@ -18,8 +18,8 @@ function Maps({stores, actionCadastrar, lat, long}) {
           attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
           url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
         />
-        {!!stores && stores.map((store) => (
-          <Pointer store={store} key={store.id} />
+        {!!stores && stores.map((store, index) => (
+          <Pointer useRedPointer={index == 0 ? true : false} store={store} key={store.id} />
         ))}
       </MapContainer>
     </div>

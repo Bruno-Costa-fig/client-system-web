@@ -29,8 +29,8 @@ function Login() {
           <h3 className="mb-2">Login</h3>
           <p>Informe os dados abaixo para acessar a nossa plataforma.</p>
           <form className="mt-5" onSubmit={handleSubmit(handleSignIn)}>
-            <InputGroup {...register("email")} name="email" helperText={errors?.data?.email} labelText="Login" placeholder="Digite aqui" />
-            <InputGroup {...register("password")} name="password" helperText={errors?.data?.password} labelText="Senha" type="password" placeholder="Digite aqui" />
+            <InputGroup {...register("email")} name="email" helperText={errors?.email?.message} labelText="Login" placeholder="Digite aqui" />
+            <InputGroup {...register("password")} name="password" helperText={errors?.password?.message} labelText="Senha" type="password" placeholder="Digite aqui" />
             <Button type='submit' onClick={handleSubmit(handleSignIn)}>Acessar</Button>
           </form>
         </div>
