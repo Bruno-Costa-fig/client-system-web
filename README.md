@@ -46,3 +46,11 @@ navegar entre as páginas disponíveis que são:
 
 **Imagem 4 - Página mapa lojas**
 <img src="/docs/images/mapa-lojas.png" width="800" />
+
+- `Cadastro de nova loja`: Você pode ainda cadastrar uma nova loja. Você pode abrir o formulário clicando no botão **+ cadastrar loja** (imagem 5). Quando o formulário for exibido (imagem 6) basta adicionar todas as informações necessárias e clicar no botão **cadastrar**:
+
+**Imagem 5 - Botão para abrir formulário de cadastro de nova loja**
+<img src="/docs/images/botao-nova-loja.png" width="800" />
+
+**Imagem 6 - formulário de cadastro de nova loja**
+<img src="/docs/images/form-cadastro-lojas.png" width="800" />
