@@ -11,7 +11,7 @@ const useAuth = () => {
 
     if(!!hasUser && hasUser[0].email == email && hasUser[0].password == password){
       const token = Math.random().toString(36).substring(2)
-      localStorage.setItem("user_token", JSON.stringify({email, token}))
+      localStorage.setItem("user_token", JSON.stringify({email, name: hasUser[0].name, token}))
       return
     } else {
       return "E-mail ou senha inválido!"
@@ -23,18 +23,14 @@ const useAuth = () => {
     navigate("/login")
   }
 
-  const getUser = async () => {
-    const userToken = localStorage.getItem("user_token")
-    const result = await apiService.get("/users")
-    const userStorage = result.data
+  const getUser = () => {
+    const userToken = JSON.parse(localStorage.getItem("user_token"))
 
-    if(userToken && userStorage) {
-      const hasUser = userStorage.filter(user => user.email === JSON.parse(userToken).email)
-
-      if(hasUser) {
-        return hasUser[0]
-      }
+    if(!!userToken) {
+      return userToken
     }
+
+    return ""
   }
 
   return ({getUser, signIn, signOut})

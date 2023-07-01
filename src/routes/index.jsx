@@ -11,7 +11,7 @@ const PrivateRoute = () => {
   const user = JSON.parse(localStorage.getItem("user_token")) ?? null
 
   return (
-    !!user.token ? <Outlet /> : <Navigate to="/login" />
+    !!user ? <Outlet /> : <Navigate to="/login" />
   )
 }
 
