@@ -54,3 +54,9 @@ navegar entre as páginas disponíveis que são:
 
 **Imagem 6 - formulário de cadastro de nova loja**
 <img src="/docs/images/form-cadastro-lojas.png" width="800" />
+
+- `Informações de uma loja no mapa`: Você pode navegar pelo mapa e ver os marcadores dos locais de cada loja cadastrada. Para ver
+as informações de uma loja específica você pode clicar em um dos marcadores e será exibido um modal com as informações (imagem 7).
+
+**Imagem 7 - modal com informação de uma loja**
+<img src="/docs/images/modal-loja.png" width="800" />

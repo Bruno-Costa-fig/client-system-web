@@ -13,7 +13,7 @@ function Pointer({ store }) {
             Endereço <span className='font-normal text-xs text-gray-color-60'>{store.adress.street}, {!!store.adress.neighborhood ? store.adress.neighborhood : "Centro"}, {store.adress.city} - {store.adress.state}, {store.adress.zipcode}</span>
           </p>
           <p className='font-bold text-lg flex flex-col'>
-            Montante <span className='font-normal text-xs text-gray-color-60'>{(store.amount).toLocaleString('pt-br',{style: 'currency', currency: 'BRL'})}</span>
+            Montante <span className='font-normal text-xs text-gray-color-60'>{(Number(store.amount)).toLocaleString('pt-br',{style: 'currency', currency: 'BRL'})}</span>
           </p>
         </div>
       </Popup>
