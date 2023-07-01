@@ -5,6 +5,16 @@ function RankingCidades() {
 
   const {stores, error} = useStoreList()
 
+  const campareCity = (a, b) => {
+    if(a.amount > b.amount){
+      return -1
+    } else if (a.amount < b.amount){
+      return 1
+    }
+
+    return 0
+  }
+
   const cidadesList = () => {
     if(!!stores && stores.length > 0){
       const cities = groupBy(stores, "city")
@@ -23,7 +33,7 @@ function RankingCidades() {
         list.push(c)
       }
 
-      return list
+      return list.sort(campareCity)
     }
 
     return []
