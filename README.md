@@ -25,7 +25,7 @@ Para rodar o projeto localmente será necessário clonar o projeto. Use o link [
 5° - Agora sim tudo pronto! 
 
 ## Instruções de Uso
-- `Página de Login`: Para fazer login na aplicação você pode utilizar como usuário (campo login) **bruno@email.com** e como senha **1234**. Consulte os usuários disponíveis [clicando neste link](https://github.com/Bruno-Costa-fig/client-system-api/server/db.json). <br>
+- `Página de Login`: Para fazer login na aplicação você pode utilizar como usuário (campo login) **bruno@email.com** e como senha **1234**. Consulte os usuários disponíveis [clicando neste link](https://github.com/Bruno-Costa-fig/client-system-api/db.json). <br>
 
 **Página de login** <br>
 <img src="/docs/images/pagina-login.png" width="800" />
