@@ -25,9 +25,9 @@ Para rodar o projeto localmente será necessário clonar o projeto. Use o link [
 5° - Agora sim tudo pronto! 
 
 ## Instruções de Uso
-- `Página de Login`: Para fazer login na aplicação você pode utilizar como usuário (campo login) **bruno@email.com** e como senha **1234**. Consulte os usuários disponíveis [clicando neste link](https://github.com/Bruno-Costa-fig/client-system-api/server/db.json).
+- `Página de Login`: Para fazer login na aplicação você pode utilizar como usuário (campo login) **bruno@email.com** e como senha **1234**. Consulte os usuários disponíveis [clicando neste link](https://github.com/Bruno-Costa-fig/client-system-api/server/db.json). <br>
 
-**Página de login**
+**Página de login** <br>
 <img src="/docs/images/pagina-login.png" width="800" />
 
 - `Menu de navegação`: No campo superior esquerdo (conforme imagem 1) temos o botão para exibir o menu de navegação(imagem 2). Através dele podemos
@@ -41,7 +41,7 @@ navegar entre as páginas disponíveis que são:
 **Imagem 2 - Menu de navegação**
 <img src="/docs/images/menu-navegacao.png" width="800" />
 
-**Imagem 3 - Página inicial**
+**Imagem 3 - Página inicial** <br>
 <img src="/docs/images/dashboard.png" width="800" />
 
 **Imagem 4 - Página mapa lojas**
