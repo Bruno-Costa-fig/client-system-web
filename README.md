@@ -49,7 +49,7 @@ navegar entre as páginas disponíveis que são:
 
 - `Cadastro de nova loja`: Você pode ainda cadastrar uma nova loja. Você pode abrir o formulário clicando no botão **+ cadastrar loja** (imagem 5). Quando o formulário for exibido (imagem 6) basta adicionar todas as informações necessárias e clicar no botão **cadastrar**:
 
-**Imagem 5 - Botão para abrir formulário de cadastro de nova loja**
+**Imagem 5 - Botão para abrir formulário de cadastro de nova loja** <br>
 <img src="/docs/images/botao-nova-loja.png" width="800" />
 
 **Imagem 6 - formulário de cadastro de nova loja**
@@ -63,7 +63,7 @@ as informações de uma loja específica você pode clicar em um dos marcadores 
 
 - `Loja destaque`: Todos os marcadores são azuis, porém se ver uma loja com um marcador vermelho significa que essa é a loja com o maior montante (loja destaque - Imagem 8):
 
-**Imagem 8 - loja destaque**
+**Imagem 8 - loja destaque** <br>
 <img src="/docs/images/loja-destaque.png" width="800" />
 
 ## Tecnologia utilizadas:
