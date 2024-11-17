@@ -88,7 +88,7 @@ function FormCadastrarLoja({ showForm = false, handleChangeShowForm }) {
           <InputGroup {...register("name")} name="name" helperText={errors?.name?.message} labelText="Nome da loja" placeholder="Digite aqui" />
           <InputGroup {...register("city")} name="city" helperText={errors?.city?.message} labelText="Cidade" placeholder="Digite aqui" />
           <InputGroup {...register("street")} name="street" helperText={errors?.street?.message} labelText="Logradouro" placeholder="Digite aqui" />
-          <InputGroup {...register("zipcode", {onChange: handleBuscaCep()})} name="zipcode" helperText={errors?.zipcode?.message} labelText="CEP" placeholder="Digite aqui" />
+          <InputGroup {...register("zipcode", {onBlur: () => handleBuscaCep()})} name="zipcode" helperText={errors?.zipcode?.message} labelText="CEP" placeholder="Digite aqui" />
           <InputGroup {...register("latitude")} name="latitude" helperText={errors?.latitude?.message} labelText="Latitude" placeholder="Digite aqui" />
           <InputGroup {...register("longitude")} name="longitude" helperText={errors?.longitude?.message} labelText="Longitude" placeholder="Digite aqui" />
           <InputGroup {...register("amount")} name="amount" helperText={errors?.amount?.message} labelText="Montante do mês" placeholder="Digite aqui" />
