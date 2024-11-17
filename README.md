@@ -1,8 +1,8 @@
 :construction: Projeto em construção :construction:
-# Desafio Vaga FrontEnd Agility
+# Projeto Client System
 
 ## Descrição
-Este projeto tem como objetivo a construção de uma aplicação proposta pela equipe técnica da Agility. O projeto consiste em uma aplicação
+Este projeto tem como objetivo a construção de uma aplicação para fins educativos. O projeto consiste em uma aplicação
 que permita ao cliente visualizar as métricas de suas lojas parceiras. A aplicação contém as seguintes funcionalidades:
 
 - Tela de Login com autenticação
@@ -11,7 +11,7 @@ que permita ao cliente visualizar as métricas de suas lojas parceiras. A aplica
 - Formulário de cadastro de novas lojas
 
 ## Instruções de instalação
-Para rodar o projeto localmente será necessário clonar o projeto. Use o link [Link do clone](https://github.com/Bruno-Costa-fig/Agility-client-system.git).
+Para rodar o projeto localmente será necessário clonar o projeto. Use o link [Link do clone](https://github.com/Bruno-Costa-fig/client-system-web.git).
 
 ### Passos:
 1º - Execute o comando *npm install* ou *yarn* para baixar todas as dependências do projeto.
@@ -25,9 +25,9 @@ Para rodar o projeto localmente será necessário clonar o projeto. Use o link [
 5° - Agora sim tudo pronto! 
 
 ## Instruções de Uso
-- `Página de Login`: Para fazer login na aplicação você pode utilizar como usuário (campo login) **bruno@email.com** e como senha **1234**. Consulte os usuários disponíveis [clicando neste link](https://github.com/Bruno-Costa-fig/Agility-client-system/blob/develop/server/data/db.json).
+- `Página de Login`: Para fazer login na aplicação você pode utilizar como usuário (campo login) **bruno@email.com** e como senha **1234**. Consulte os usuários disponíveis [clicando neste link](https://github.com/Bruno-Costa-fig/client-system-api/db.json). <br>
 
-**Página de login**
+**Página de login** <br>
 <img src="/docs/images/pagina-login.png" width="800" />
 
 - `Menu de navegação`: No campo superior esquerdo (conforme imagem 1) temos o botão para exibir o menu de navegação(imagem 2). Através dele podemos
@@ -41,7 +41,7 @@ navegar entre as páginas disponíveis que são:
 **Imagem 2 - Menu de navegação**
 <img src="/docs/images/menu-navegacao.png" width="800" />
 
-**Imagem 3 - Página inicial**
+**Imagem 3 - Página inicial** <br>
 <img src="/docs/images/dashboard.png" width="800" />
 
 **Imagem 4 - Página mapa lojas**
@@ -49,7 +49,7 @@ navegar entre as páginas disponíveis que são:
 
 - `Cadastro de nova loja`: Você pode ainda cadastrar uma nova loja. Você pode abrir o formulário clicando no botão **+ cadastrar loja** (imagem 5). Quando o formulário for exibido (imagem 6) basta adicionar todas as informações necessárias e clicar no botão **cadastrar**:
 
-**Imagem 5 - Botão para abrir formulário de cadastro de nova loja**
+**Imagem 5 - Botão para abrir formulário de cadastro de nova loja** <br>
 <img src="/docs/images/botao-nova-loja.png" width="800" />
 
 **Imagem 6 - formulário de cadastro de nova loja**
@@ -63,7 +63,7 @@ as informações de uma loja específica você pode clicar em um dos marcadores 
 
 - `Loja destaque`: Todos os marcadores são azuis, porém se ver uma loja com um marcador vermelho significa que essa é a loja com o maior montante (loja destaque - Imagem 8):
 
-**Imagem 8 - loja destaque**
+**Imagem 8 - loja destaque** <br>
 <img src="/docs/images/loja-destaque.png" width="800" />
 
 ## Tecnologia utilizadas:
@@ -93,16 +93,10 @@ há alguns pontos que gostaria seriam necessários uma futura implementação co
 - implementação de exibição de vários meses para o gráfico de linha no dashboard
 - melhoria no login com utilização de bibliotecas de criptografia
 - regras para edição e remoção de lojas parceiras
-- deploy da aplicação
 - entre outros
 
-Infelizmente não consegui dentro do tempo proposto ir além do que vos entrego nesse momento (em especial os testes unitários).
 
-## Pontos extras:
-Com o auxílio do Tailwind CSS consegui deixar o projeto responsivo. Utilizei bastante de grids para isso. Alguns pontinhos precisam de um retoque (legenda do gráfico de linhas) mas em sua maioria está funcional.
-
-## Agradecimentos:
-Agradeço a toda equipe pela oportunidade e me disponho nas redes de contato abaixo listadas para eventuais esclarecimentos.
+## Meus contatos:
 
 <a href="mailto:brunocosta.fig@gmail.com"><img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white"></a>
 <a href="https://www.instagram.com/brunocostadev/"><img src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white"></a>
